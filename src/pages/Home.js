@@ -24,20 +24,20 @@ function Home() {
         </div>
       </div>
       <div className="skills">
-        <h1>Skils</h1>
+        <h1>Skills</h1>
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span>ReactJS, Angular,NextJS, HTML,CSS, BootStrap</span>
+            <span>ReactJS, HTML,CSS, Angular</span>
           </li>
 
           <li className="item">
             <h2>Back-End</h2>
-            <span>NodeJS, .NET, MYSQL, MongoDB, NestJS,NextJS, Flask</span>
+            <span>Flask,NodeJS, MYSQL, MongoDB, NestJS,NextJS, .NET</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span> Javascript, C# , C++, Python, TypeScript</span>
+            <span>Python, Javascript, C# , C++, TypeScript</span>
           </li>
         </ol>
       </div>

@@ -20,7 +20,27 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Centro de Idiomas Trinidad, Trinidad
           </h3>
-          <p>CEFR C2 level certificate</p>
+          <p> C2 level certificate</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2016-2018"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Centro de idiomas Trinidad
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Trinidad,Beni, BO
+          </h4>
+
+          <p>Worked as a substitute teacher</p>
+          <p>
+            Developed communication skills as I teached people from different
+            age groups
+          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -49,14 +69,14 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2020 - 2025"
+          date="2020 - present"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Universidad Catolica Boliviana, Cochabamba
           </h3>
-          <p>Software Engineering Diploma</p>
+          <p>Software Engineering</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -65,10 +85,13 @@ function Experience() {
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Internship at UCB</h3>
+          <h3 className="vertical-timeline-element-title">
+            COMTECO Hackacom 2022, 2nd place
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">Cochabamba, BO</h4>
 
-          <p>Helped Maintain the college web page and API's</p>
+          <p>Helped in the development of 2dn place application: Fitscan</p>
+          <p>Technologies: Expo, Python, Firebase</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
