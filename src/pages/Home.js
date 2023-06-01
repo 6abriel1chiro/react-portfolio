@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 //import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "../components/GithubIcon";
+import InstagramIcon from "@mui/icons-material/Instagram";
+
+import "../styles/Home.css";
+
 import "../styles/Home.css";
 
 function Home() {
@@ -12,12 +16,20 @@ function Home() {
       <div className="about">
         <h2> Gabriel Balderrama</h2>
         <div className="prompt">
-          <p>software engineer</p>
+          <p>
+            Hi, I'm Gabriel Ichiro Balderrama Vargas, a passionate software
+            developer ready to turn ideas into innovative solutions
+          </p>
 
           <Link
             to={"https://www.linkedin.com/in/gabriel-balderrama-9524001b5/"}
           >
             <LinkedInIcon />
+          </Link>
+          <Link
+            to={"https://www.linkedin.com/in/gabriel-balderrama-9524001b5/"}
+          >
+            <InstagramIcon />
           </Link>
 
           <GithubIcon githubLink="https://github.com/6abriel1chiro" />

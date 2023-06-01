@@ -23,12 +23,14 @@ export const projectList = [
     skills: "Python, keras, Tensorflow, Tensorboard",
     githubLink: "https://github.com/6abriel1chiro/teeko-intelligent-game",
   },
+  /**  
   {
     name: "React CRUD Operations and Authentication system",
     image: Project4,
     skills: "React , Expo , HTML, CSS ",
     githubLink: "https://github.com/6abriel1chiro/react-crud-operations",
   },
+  */
   {
     name: "Angular CRUD Operations and Authentication system",
     image: Project5,
