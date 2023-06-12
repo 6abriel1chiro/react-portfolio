@@ -21,6 +21,7 @@ function Home() {
 
           <Link
             to={"https://www.linkedin.com/in/gabriel-balderrama-9524001b5/"}
+            target="_blank"
           >
             <LinkedInIcon />
           </Link>
@@ -29,6 +30,7 @@ function Home() {
 
           <Link
             to={"https://www.linkedin.com/in/gabriel-balderrama-9524001b5/"}
+            target="_blank"
           >
             <InstagramIcon />
           </Link>

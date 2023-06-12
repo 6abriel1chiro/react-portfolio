@@ -10,13 +10,16 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <Link to={"https://www.linkedin.com/in/gabriel-balderrama-9524001b5/"}>
+        <Link
+          to={"https://www.linkedin.com/in/gabriel-balderrama-9524001b5/"}
+          target="_blank"
+        >
           <LinkedInIcon />
         </Link>
 
         <GithubIcon githubLink="https://github.com/6abriel1chiro" />
 
-        <Link to={"https://www.instagram.com/6abriel1chiro/"}>
+        <Link to={"https://www.instagram.com/6abriel1chiro/"} target="_blank">
           <InstagramIcon />
         </Link>
       </div>

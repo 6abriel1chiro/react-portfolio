@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function GithubIcon(props) {
   return (
-    <Link to={props.githubLink}>
+    <Link to={props.githubLink} target="_blank">
       <GitHubIcon />
     </Link>
   );
