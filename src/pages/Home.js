@@ -8,8 +8,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 import "../styles/Home.css";
 
-import "../styles/Home.css";
-
 function Home() {
   return (
     <div className="home">
@@ -26,13 +24,14 @@ function Home() {
           >
             <LinkedInIcon />
           </Link>
+
+          <GithubIcon githubLink="https://github.com/6abriel1chiro" />
+
           <Link
             to={"https://www.linkedin.com/in/gabriel-balderrama-9524001b5/"}
           >
             <InstagramIcon />
           </Link>
-
-          <GithubIcon githubLink="https://github.com/6abriel1chiro" />
         </div>
       </div>
       <div className="skills">
